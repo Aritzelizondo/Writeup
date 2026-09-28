@@ -387,13 +387,16 @@ Victim's username: carlos
 
 
 * "Configuración del Payload 2 mediante la opción de Null Payloads para repetir los intentos de inicio de sesión."
+<img width="1366" height="720" alt="image73" src="https://github.com/user-attachments/assets/45967e9a-a649-4668-9bd5-f0b4ce1bbc80" />
 
 
 * "Evidencia de mensaje de error 'Invalid username or password'. Uso de la función Grep - Match incluyendo el mensaje de error para la visualización del estado en el resultado del ataque."
+<img width="1366" height="720" alt="image35" src="https://github.com/user-attachments/assets/29b01b2f-4e47-426c-9576-91d4338fdbd7" />
 
 
 
 * "Nota de auditoría: el servidor del laboratorio expira de manera programada antes de que la versión Burp Community finalice el ataque completo, requiriendo optimización en el número de hilos concurrentes."
+<img width="1366" height="720" alt="image23" src="https://github.com/user-attachments/assets/5fa0379b-c8ac-4f1f-aa45-b3336173f87d" />
 
 
 * **Mitigación:** Configurar el sistema de bloqueo de cuentas para que, al superar el umbral de intentos fallidos, responda con el mismo mensaje genérico de error y código de estado que una petición inválida ordinaria, impidiendo la enumeración de usuarios basada en el estado de bloqueo del perfil.
@@ -414,12 +417,14 @@ Victim's username: carlos
 Victim's username: carlos
 * **Evidencia:** > 
 * "Modificación de la estructura de la solicitud HTTP debido a que el endpoint de validación múltiple carece de protecciones contra ataques de fuerza bruta concurrentes."
+<img width="1366" height="720" alt="image38" src="https://github.com/user-attachments/assets/1f6c5226-5464-4bde-9276-2e50b01603d6" />
 
 
 
 
 
 * "Análisis de la respuesta del servidor en segundo plano donde no se reflejan restricciones en la interfaz."
+<img width="1366" height="720" alt="image19" src="https://github.com/user-attachments/assets/518cf084-df07-40d2-83d1-176e4bbcc5cc" />
 
 
 
@@ -430,16 +435,19 @@ Victim's username: carlos
 
 
 * "Generación de un enlace de sesión para visualizar y validar el estado de la autenticación directamente en el navegador integrado."
+<img width="1366" height="720" alt="image42" src="https://github.com/user-attachments/assets/d248c9ad-9cd6-4451-b14c-f9abd44198f8" />
 
 
 
 
 * “Link para visualizar en el navegador.”
+<img width="1366" height="720" alt="image52" src="https://github.com/user-attachments/assets/be9782e3-4ed5-4741-b1b6-b8521e73f318" />
 
 
 
 
 * "Evidencia de inicio de sesión exitoso en la cuenta del usuario víctima."
+<img width="1366" height="720" alt="image72" src="https://github.com/user-attachments/assets/19a92562-793f-4b0f-b6e4-2000ff30fad8" />
 
 
 
@@ -464,15 +472,18 @@ Victim's credentials carlos:montoya
 * **Evidencia:** >
 
 * "Buzón de correo del usuario legítimo interceptado durante el análisis de flujo."
+<img width="1366" height="720" alt="image89" src="https://github.com/user-attachments/assets/e0b5d088-4689-4479-87dc-35860629dde2" />
 
 
 * "Inspección en la página del servidor de explotación (Exploit Server) en busca de información técnica relevante."
+<img width="1366" height="720" alt="image9" src="https://github.com/user-attachments/assets/8ca281b8-9475-46f5-85f2-476bc4659149" />
 
 
 
 
 
 * "Inicio de sesión inicial empleando el usuario legítimo de control."
+<img width="1366" height="720" alt="image5" src="https://github.com/user-attachments/assets/67ae067a-402e-482c-843b-a00eae1222ce" />
 
 
 
@@ -481,12 +492,14 @@ Victim's credentials carlos:montoya
 
 
 * "Evidencia de requerimiento obligatorio del código de autenticación de doble factor por el canal ordinario."
+<img width="1366" height="720" alt="image82" src="https://github.com/user-attachments/assets/fc62f946-53ec-4d45-9abc-a0ea25af8202" />
 
 
 
 
 
 * "Evidencia de funcionamiento correcto del servicio de mensajería de correo."
+<img width="1366" height="720" alt="image102" src="https://github.com/user-attachments/assets/1504d914-1a7f-4519-bf16-f9feefdb7c2d" />
 
 
 
@@ -495,6 +508,7 @@ Victim's credentials carlos:montoya
 
 
 * "Evidencia de la transición forzada en la URL de `/login` hacia `/login2` durante el proceso de login."
+<img width="1366" height="720" alt="image90" src="https://github.com/user-attachments/assets/ff50f4ec-9651-4d2e-864d-82b13cb1f260" />
 
 
 
@@ -502,13 +516,16 @@ Victim's credentials carlos:montoya
 
 
 * "Evidencia de redireccionamiento automático hacia la ruta `/my-account?id=wiener` tras una autenticación satisfactoria."
+<img width="1366" height="720" alt="image79" src="https://github.com/user-attachments/assets/7d49593e-6d7c-4e6a-b7aa-bf7bfcace668" />
 
 
 * "Intento de explotación de vulnerabilidad IDOR modificando el identificador del usuario por el de la víctima."
+<img width="1366" height="720" alt="image32" src="https://github.com/user-attachments/assets/ec3e8da4-8229-47f6-afd5-fed808cbe48b" />
 
 
 
 * "Acceso legítimo y consolidación de sesión en la interfaz privada de la cuenta corporativa empleando las credenciales comprometidas durante la auditoría."
+<img width="1366" height="720" alt="image101" src="https://github.com/user-attachments/assets/5bfd70eb-23a0-496d-b2cf-1f5bc37da228" />
 
 
 
@@ -531,17 +548,20 @@ Victim's username: carlos
 
 
 * “Evidencia de requerimiento de código de autenticación.”
+<img width="1366" height="720" alt="image49" src="https://github.com/user-attachments/assets/0c61aa87-76fa-47c2-b6b4-fafb4383e9dc" />
 
 
 
 
 
 * "Transferencia de la petición POST /login2 al módulo Repeater para su análisis dinámico."
+<img width="1366" height="720" alt="image45" src="https://github.com/user-attachments/assets/f45c38af-1121-4d05-8878-7165cae5322c" />
 
 
 
 
 * "Evidencia de aceptación y funcionamiento de un código de autenticación aleatorio por parte del backend."
+<img width="1366" height="720" alt="image26" src="https://github.com/user-attachments/assets/51eed2f1-38b3-4159-9e67-7042837e5947" />
 
 
 
