@@ -89,13 +89,16 @@ Se ha seguido el orden oficial de PortSwigger para analizar los diferentes vecto
 
 Your credentials: wiener:peter
 * **Evidencia:** > 
+<img width="1366" height="720" alt="image41" src="https://github.com/user-attachments/assets/367397fb-dd69-4936-9565-c654c1cb3de8" />
 
 
 * "Evidencia de mensaje de error 'Invalid username or password'. Uso de Grep - Match incluyendo el mensaje de error para la visualización en el resultado del ataque."
+<img width="1366" height="720" alt="image93" src="https://github.com/user-attachments/assets/1f2daac4-8c62-4a3c-aa1b-17e80da4104e" />
 
 
 
 * "Evidencia de ataque exitoso; la columna de advertencia (Warning) refleja una anomalía que expone el usuario válido."
+<img width="1366" height="720" alt="image44" src="https://github.com/user-attachments/assets/6b417b46-7222-4d25-92dc-36c30444b5c1" />
 
 
 
@@ -104,12 +107,14 @@ Your credentials: wiener:peter
 
 
 * "Evidencia de segundo ataque Sniper incluyendo el usuario legítimo y la carga de la lista de contraseñas proporcionada."
+<img width="1366" height="720" alt="image16" src="https://github.com/user-attachments/assets/61e8fc62-7ae5-47da-838b-7d224a26ac0c" />
 
 
 
 
 
 * "Evidencia de ataque exitoso; la columna de advertencia indica la contraseña válida."
+<img width="1366" height="720" alt="image63" src="https://github.com/user-attachments/assets/97e415ed-a4cf-4b60-b573-b2a5fca31ba2" />
 
 
 
@@ -118,6 +123,7 @@ Your credentials: wiener:peter
 
 
 * "Interceptación de petición POST /login, uso de Intruder para la parametrización del usuario mediante Sniper y la carga de la lista de usuarios proporcionada."
+<img width="1366" height="720" alt="image74" src="https://github.com/user-attachments/assets/702c889b-74e3-4180-9a7a-87693ee9c280" />
 
 
 * **Mitigación:** Normalizar de manera estricta todos los mensajes de error devueltos por los componentes de autenticación en el backend, implementando validaciones y filtros globales que depuren de forma automática cualquier discrepancia tipográfica, errata de caracteres o espacio en blanco residual (`" "`) que pudiera actuar como un oráculo de información ante un análisis comparativo de respuestas.
