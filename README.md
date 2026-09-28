@@ -169,30 +169,23 @@ Your credentials: wiener:peter
 
 * "Serie de pruebas realizadas de tiempo de respuesta: 1. Usuario y contraseña aleatoria: 92 ms. 2. Usuario y contraseña larga: 85 ms. 3. Wiener y contraseña larga: 92 ms."
 
+1.
+<img width="1366" height="720" alt="image105" src="https://github.com/user-attachments/assets/d27afeb3-53ad-433f-a32c-8bbd02eb00d2" />
 
 
 
+2.
+<img width="1366" height="720" alt="image18" src="https://github.com/user-attachments/assets/43165e27-0fca-48f7-b52d-d2c2026ab1ac" />
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+3.
+<img width="1366" height="720" alt="image87" src="https://github.com/user-attachments/assets/46039863-17b8-44dd-b27d-a3f438ed6165" />
 
 
 
 * "Configuración avanzada del ataque en modalidad Pitchfork inyectando dinámicamente la cabecera de enrutamiento de red X-Forwarded-For: §IP§. Esto neutraliza la defensa de bloqueo al simular peticiones concurrentes provenientes de un entorno distribuido de clientes de red."
+<img width="1366" height="720" alt="image56" src="https://github.com/user-attachments/assets/5471bb60-a13c-45b6-96b3-171a316ffadb" />
 
 
 
@@ -201,6 +194,7 @@ Your credentials: wiener:peter
 
 
 * "Evidencia de comportamiento de la página ante un usuario existente con una contraseña larga inexistente (1880 ms)."
+<img width="1366" height="720" alt="image99" src="https://github.com/user-attachments/assets/41a0fe1e-91b7-405c-a36f-9cf72c4ebd17" />
 
 
 
@@ -212,10 +206,13 @@ Your credentials: wiener:peter
 
 
 
+<img width="1366" height="720" alt="image85" src="https://github.com/user-attachments/assets/f6a98f7f-ea1e-40c0-8ee9-780bce8335ed" />
 
 
 
+<img width="319" height="523" alt="image31" src="https://github.com/user-attachments/assets/147163b6-fe15-4dfe-a784-0bd224529b2e" />
 
+<img width="317" height="535" alt="image65" src="https://github.com/user-attachments/assets/294d3f00-e635-4ce8-8ec2-f3132abc5ead" />
 
 
 
@@ -225,10 +222,13 @@ Your credentials: wiener:peter
 
 
 * "Se incluye el nombre de usuario legítimo (en este caso, 'vagrant') y se parametriza el campo de la contraseña, cargando el diccionario proporcionado por el laboratorio en el Payload set 2 para iniciar el ataque de fuerza bruta."
+<img width="1366" height="720" alt="image60" src="https://github.com/user-attachments/assets/5d27231b-7456-4420-8e92-a7da86a9a15c" />
+
 
 
 
 “Se incluye el nombre de usuario legitimo (en este caso, vagrant) y se parametriza el campo de la contraseña, cargando el diccionario proporcionado por el laboratorio en el Payload set 2 para iniciar el ataque de fuerza bruta."
+<img width="1366" height="720" alt="image51" src="https://github.com/user-attachments/assets/9d717137-a0f8-4a56-87fb-8b78c46d57ee" />
 
 
 
@@ -236,11 +236,13 @@ Your credentials: wiener:peter
 
 
 * "Resultado final del ataque Pitchfork en el que se identifica la clave 'soccer' debido a la obtención de un código de estado de sesión satisfactoria (HTTP 302 Found), evadiendo por completo la restricción perimetral de la IP."
+<img width="1366" height="720" alt="image47" src="https://github.com/user-attachments/assets/926c50af-3fc6-41a4-9a0f-f260df34a4dc" />
 
 
 
 
 * "Acceso legítimo y consolidación de sesión en la interfaz privada de la cuenta corporativa empleando las credenciales comprometidas durante la auditoría."
+<img width="1366" height="720" alt="image39" src="https://github.com/user-attachments/assets/9df0edcc-addf-44c1-a019-c9fb105417fb" />
 
 
 * **Mitigación:** No utilizar cabeceras fácilmente manipulables por el cliente como `X-Forwarded-For` para aplicar restricciones de seguridad (Rate Limiting).
