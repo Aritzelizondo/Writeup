@@ -562,6 +562,7 @@ Victim's username: carlos
 
 * "Evidencia de aceptación y funcionamiento de un código de autenticación aleatorio por parte del backend."
 <img width="1366" height="720" alt="image26" src="https://github.com/user-attachments/assets/51eed2f1-38b3-4159-9e67-7042837e5947" />
+<img width="1366" height="720" alt="image49" src="https://github.com/user-attachments/assets/0c61aa87-76fa-47c2-b6b4-fafb4383e9dc" />
 
 
 
