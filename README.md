@@ -1,4 +1,4 @@
-# Writeup
+<img width="1366" height="720" alt="image80" src="https://github.com/user-attachments/assets/d58e4838-fc25-4a35-b60b-df9dd26f3ba2" /># Writeup
 Portswigger Authentication
 
 # Informe de Auditoría Técnica: Autenticación
@@ -24,11 +24,12 @@ Se ha seguido el orden oficial de PortSwigger para analizar los diferentes vecto
 4. **Fase 2 (Fuerza bruta de contraseñas):** Regresar a las posiciones del Intruder, sustituir el valor del usuario por el nombre válido ya descubierto de forma fija (`username=academico`) y colocar el marcador de posición únicamente en el parámetro de la contraseña (`password=§test§`). Cargar la lista de contraseñas en la configuración del payload y lanzar un nuevo ataque en modo **Sniper**. Identificar la contraseña correcta (`access`) observando un cambio en la longitud de la respuesta o un código de estado de redirección HTTP (`302 Found`).
 * **Evidencia:** > 
 * "Interceptación de la solicitud de autenticación POST /login y transferencia de la estructura HTTP al módulo Intruder para iniciar la parametrización de vectores de ataque."
-<img width="1366" height="720" alt="image1" src="https://github.com/user-attachments/assets/48ed2e9d-db07-47f7-8a34-3a2b72bea088" />
+<img width="1366" height="720" alt="image70" src="https://github.com/user-attachments/assets/dd3470f6-360f-4e4b-baff-1aae37bf97a8" />
 
 
 
 * "Configuración del marcador de posición de tipo dinámico exclusivamente sobre el parámetro username utilizando el modo de ataque Sniper."
+<img width="1366" height="720" alt="image80" src="https://github.com/user-attachments/assets/f4f392db-26e7-401e-856f-23f0e991a000" />
 
 
 
@@ -38,6 +39,7 @@ Se ha seguido el orden oficial de PortSwigger para analizar los diferentes vecto
 
 
 * "Carga exhaustiva del diccionario de usuarios predefinido en la sección de payloads del Intruder previo a la ejecución de las consultas dirigidas."
+<img width="1366" height="720" alt="image48" src="https://github.com/user-attachments/assets/adc3b6f0-ce67-4660-979f-8fe6507e6dad" />
 
 
 
