@@ -161,6 +161,7 @@ Your credentials: wiener:peter
 Your credentials: wiener:peter
 * **Evidencia:** > 
 * "Establecimiento de una línea base de tiempo de respuesta (61 ms) en entornos de autenticación exitosa mediante solicitudes controladas en el módulo Repeater."
+<img width="1366" height="720" alt="image27" src="https://github.com/user-attachments/assets/c5119ab3-56cb-468c-ab03-d7a2889d2029" />
 
 
 
