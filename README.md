@@ -266,15 +266,18 @@ Victim's username: carlos
 * **Evidencia:** > 
 
 * "Interceptación de petición POST /login con credenciales válidas."
+<img width="1366" height="720" alt="image75" src="https://github.com/user-attachments/assets/6a966073-38d0-472c-9334-11fb18c159c7" />
 
 
 
 
 * "Intento de evasión de bloqueos mediante rotación de IP (sin resultado exitoso)."
+<img width="1366" height="720" alt="image103" src="https://github.com/user-attachments/assets/fe8eeefb-124c-47ed-8c42-7c453d23ad4d" />
 
 
 
 * "Intento de reseteo del contador mediante validación exitosa: payload el cual realiza un inicio de sesión exitoso cada 2 intentos."
+<img width="1366" height="720" alt="image88" src="https://github.com/user-attachments/assets/2debb415-014a-4b48-a6e9-7b32df7cdb38" />
 
 
 
@@ -286,23 +289,27 @@ Victim's username: carlos
 
 
 “Ataque realizado sin éxito”
+<img width="1366" height="720" alt="image21" src="https://github.com/user-attachments/assets/dce4319d-2d90-4093-ac5c-88b0c34c45ec" />
 
 
 
 
 
 * "Creación de dos archivos de texto (.txt) que contienen la lista combinada de usuarios (víctima y legítimo) y la lista de posibles contraseñas con 'peter' de forma intercalada para reiniciar el contador del backend."
+<img width="1366" height="720" alt="image1" src="https://github.com/user-attachments/assets/638fecf9-e8ef-4da7-9927-52dbfd74b3a0" />
 
 
 
 
 * "Configuración de la herramienta Intruder en modo Pitchfork utilizando el Payload 1 con el archivo de usuarios creado y el Payload 2 con el archivo de contraseñas generado, seguido de la eliminación de cookies para mantener una sesión limpia."
+<img width="1366" height="720" alt="image95" src="https://github.com/user-attachments/assets/98af3ff8-e09a-415c-a980-f7b75795aed0" />
 
 
 
 
 
 * "Uso de la opción 'Maximum concurrent requests' dentro del 'Resource pool' para forzar el procesamiento secuencial estricto desde la primera línea."
+<img width="1372" height="720" alt="image25" src="https://github.com/user-attachments/assets/426fddbb-29eb-42f0-80f2-338e269ef2cd" />
 
 
 
@@ -312,11 +319,13 @@ Victim's username: carlos
 
 
 * "Requerimiento técnico de Burp Suite Professional para activar la opción de bucle (Loop), la cual automatiza la extracción exitosa de la clave de la víctima."
+<img width="1366" height="720" alt="image21" src="https://github.com/user-attachments/assets/dce4319d-2d90-4093-ac5c-88b0c34c45ec" />
 
 
 
 
 * "Ejecución de un intento de bucle manual mediante un archivo estructurado de 200 líneas incluyendo a 'carlos' y 'wiener'."
+<img width="1366" height="720" alt="image76" src="https://github.com/user-attachments/assets/34db70c5-eabe-4f7b-86e2-0fe0f2b65c4c" />
 
 
 
@@ -325,16 +334,19 @@ Victim's username: carlos
 
 
 * "Carga del nuevo archivo plano para la ejecución del ataque."
+<img width="1366" height="720" alt="image24" src="https://github.com/user-attachments/assets/2f18cc77-eb76-4769-addc-735477e64fec" />
 
 
 
 
 
 * "Ataque exitoso con el diccionario generado; se identifica el código de estado HTTP 302 Found en la petición número 191 correspondiente a las credenciales 'carlos:monitor'."
+<img width="1366" height="720" alt="image100" src="https://github.com/user-attachments/assets/06ce4d46-4e53-4492-977b-618a8e92cfc5" />
 
 
 
 * "Acceso legítimo y consolidación de sesión en la interfaz privada de la cuenta corporativa empleando las credenciales comprometidas durante la auditoría."
+<img width="1366" height="720" alt="image13" src="https://github.com/user-attachments/assets/caf10c5d-4c3b-4b09-af1b-c1b3b781cb73" />
 
 
 * **Mitigación:** Implementar un control de tasa (*Rate-Limiting*) estricto que asocie los intentos fallidos combinando la dirección IP real de origen con el nombre de usuario (`username`), impidiendo el reseteo del contador de bloqueos mediante la intercalación síncrona de inicios de sesión válidos de otras cuentas.
@@ -359,10 +371,12 @@ Victim's username: carlos
 * **Evidencia:** > 
 
 * "Interceptación de la petición POST /login y creación del payload en modalidad Cluster Bomb."
+<img width="1366" height="720" alt="image33" src="https://github.com/user-attachments/assets/da8d0734-70aa-4358-8963-214f7606dddd" />
 
 
 
 * "Configuración del Payload 1 cargando la lista de usuarios proporcionada."
+<img width="1366" height="720" alt="image53" src="https://github.com/user-attachments/assets/1691d320-ac80-4e7a-9f09-ed0cb286601a" />
 
 
 
