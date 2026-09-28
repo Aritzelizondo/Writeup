@@ -1,4 +1,4 @@
-<img width="1366" height="720" alt="image80" src="https://github.com/user-attachments/assets/d58e4838-fc25-4a35-b60b-df9dd26f3ba2" /># Writeup
+# Writeup
 Portswigger Authentication
 
 # Informe de Auditoría Técnica: Autenticación
@@ -47,14 +47,17 @@ Se ha seguido el orden oficial de PortSwigger para analizar los diferentes vecto
 
 
 * "Identificación de un comportamiento anómalo en el servidor reflejado en una longitud de respuesta HTTP diferenciada (Length: 3214) para el payload 'academico', aislando el usuario objetivo debido a la generación de un mensaje de error específico por parte del backend."
+<img width="1366" height="720" alt="image64" src="https://github.com/user-attachments/assets/13034605-e8fc-4467-9f2a-373d29c7f5d1" />
 
 
 
 "Ejecución de la segunda fase del ataque fijando estáticamente el usuario válido identificado y parametrizando dinámicamente el campo de la contraseña."
+<img width="1366" height="720" alt="image66" src="https://github.com/user-attachments/assets/cdb3f845-05f7-46a4-aa46-1c101082d975" />
 
 
 
 * "Ejecución de la segunda fase del ataque fijando estáticamente el usuario válido identificado y parametrizando dinámicamente el campo de la contraseña."
+<img width="1366" height="720" alt="image37" src="https://github.com/user-attachments/assets/b49167aa-7cf3-41fc-a723-f494a5be069a" />
 
 
 
@@ -65,9 +68,11 @@ Se ha seguido el orden oficial de PortSwigger para analizar los diferentes vecto
 
 
 * "Análisis final del ataque de fuerza bruta donde se aísla la credencial válida ('access') mediante la detección de un código de estado de redirección HTTP 302 Found, confirmando la validación del inicio de sesión."
+<img width="1366" height="720" alt="image3" src="https://github.com/user-attachments/assets/556640cc-cf5e-440b-8725-4340bc7d373e" />
 
 
 * "Acceso legítimo y consolidación de sesión en la interfaz privada de la cuenta corporativa empleando las credenciales compromised durante la auditoría."
+<img width="1366" height="720" alt="image14" src="https://github.com/user-attachments/assets/ee55f9da-5fa3-45e6-88f3-fb40b1def9f2" />
 
 
 * **Mitigación:** El servidor debe devolver un mensaje genérico como "Usuario o contraseña incorrectos" con la misma longitud de respuesta para no dar pistas al atacante.
