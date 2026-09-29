@@ -572,6 +572,7 @@ Victim's username: carlos
 
 
 * "Ejecución de un script personalizado en Python para realizar fuerza bruta sobre el segundo factor de 'carlos', resultando infructuoso debido a la rotación periódica del token cada 2 minutos."
+<img width="1366" height="720" alt="image2" src="https://github.com/user-attachments/assets/667d7261-ca5b-4cb1-86ce-05fd219d38e7" />
 
 
 
@@ -597,6 +598,7 @@ Victim's credentials: carlos:montoya
 * **Evidencia:** > 
 
 * "Evidencia de generación del código de autenticación en la interfaz al iniciar sesión."
+<img width="1366" height="720" alt="image6" src="https://github.com/user-attachments/assets/27c66fae-9a91-4b7a-93c8-4af5fef227ae" />
 
 
 
