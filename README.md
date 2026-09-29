@@ -598,18 +598,20 @@ Victim's credentials: carlos:montoya
 * **Evidencia:** > 
 
 * "Evidencia de generación del código de autenticación en la interfaz al iniciar sesión."
-<img width="1366" height="720" alt="image6" src="https://github.com/user-attachments/assets/27c66fae-9a91-4b7a-93c8-4af5fef227ae" />
+<img width="1366" height="720" alt="image67" src="https://github.com/user-attachments/assets/0e81dff2-2f6a-4812-99a5-d8512d903cdb" />
 
 
 
 
 
 * "Interceptación de la petición POST /login en el módulo de tránsito (Proxy)."
+<img width="1366" height="720" alt="image6" src="https://github.com/user-attachments/assets/27c66fae-9a91-4b7a-93c8-4af5fef227ae" />
 
 
 
 
 * "Configuración de la regla de manejo de sesión (Session Handling Rule) aplicando el alcance a todas las URL del laboratorio."
+<img width="1366" height="720" alt="image7" src="https://github.com/user-attachments/assets/602b829f-2cd1-4bdc-93a2-89dc39fdcba0" />
 
 
 
@@ -617,24 +619,29 @@ Victim's credentials: carlos:montoya
 
 
 * “Incluir todas las URL.”
+<img width="1366" height="720" alt="image29" src="https://github.com/user-attachments/assets/6a02e508-e56f-4aad-bb76-4cee189ac7db" />
 
 
 * "Asignación de la acción automatizada 'Run a macro' en Burp Suite."
+<img width="1366" height="720" alt="image86" src="https://github.com/user-attachments/assets/d21e1d89-ff60-459f-854f-369dca772fcf" />
 
 
 
 
 * "Añadido secuencial de las peticiones intermedias `/login` y `/login2` dentro de la macro."
+<img width="1366" height="720" alt="image94" src="https://github.com/user-attachments/assets/f5e65026-3be4-48db-a34a-d85fcf7343a3" />
 
 
 
 
 
 * "Ejecución de un test de diagnóstico sobre la macro configurada con resultado satisfactorio."
+<img width="1366" height="720" alt="image20" src="https://github.com/user-attachments/assets/eab1d8aa-0f7a-442a-8bc4-2a6400d2e916" />
 
 
 
 * "Registro de auditoría técnico sobre las iteraciones de la macro."
+<img width="1366" height="720" alt="image83" src="https://github.com/user-attachments/assets/8d83d6f5-cc98-43d5-863f-69cbd9eb1667" />
 
 
 
@@ -659,6 +666,7 @@ Your credentials: wiener:peter
 Victim's username: carlos
 * **Evidencia:** > 
 * "Interceptación de la petición GET /my-account?id=wiener, exponiendo la cookie de sesión persistente estructurada."
+<img width="1366" height="720" alt="image34" src="https://github.com/user-attachments/assets/89d1cf40-4960-44ab-bfae-14c0e4e08c8e" />
 
 
 
@@ -666,14 +674,17 @@ Victim's username: carlos
 
 
 * "Visualización de la cadena codificada en Base64 mediante el panel del Decoder."
+<img width="1366" height="720" alt="image78" src="https://github.com/user-attachments/assets/b1edda95-792e-4af6-b7e9-cbd286430fc9" />
 
 
 
 * "Uso de una herramienta local de descifrado de hashes (Hash Cracker) logrando revertir exitosamente el MD5."
+<img width="1366" height="720" alt="image40" src="https://github.com/user-attachments/assets/a60b4c91-bda7-4e69-84d4-26a842dd4956" />
 
 
 
 * "Configuración del módulo Intruder para orquestar un ataque dirigido en modalidad Sniper."
+<img width="1366" height="720" alt="image97" src="https://github.com/user-attachments/assets/61a79903-36dd-46f6-bb96-713c4ce86efd" />
 
 
 
@@ -682,11 +693,13 @@ Victim's username: carlos
 
 
 * "Carga del diccionario de contraseñas proporcionado por el laboratorio para alimentar el vector de ataque."
+<img width="1366" height="720" alt="image91" src="https://github.com/user-attachments/assets/1a5a9c35-fe4f-4431-86aa-8f9b8f92aaef" />
 
 
 
 
 * "Ataque ejecutado con éxito; se identifica la solicitud válida gracias a una longitud de respuesta (Length) diferenciada del resto del conjunto."
+<img width="1366" height="720" alt="image96" src="https://github.com/user-attachments/assets/5e7e3b42-c19e-4127-883c-d22084cc8ef0" />
 
 
 
@@ -695,10 +708,12 @@ Victim's username: carlos
 
 
 * "Evidencia de la falsificación final de la cookie cifrada en Base64 perteneciente a la víctima."
+<img width="1366" height="720" alt="image12" src="https://github.com/user-attachments/assets/66253590-749c-42ec-866b-c8a6c100b456" />
 
 
 
 * "Acceso legítimo y consolidación de sesión en la interfaz privada de la cuenta corporativa empleando las credenciales comprometidas durante la auditoría."
+<img width="1366" height="720" alt="image59" src="https://github.com/user-attachments/assets/a7d228e2-b57b-4a39-9ff8-d10fa1d345f5" />
 
 
 
@@ -720,11 +735,13 @@ Victim's username: carlos
 * **Evidencia:** > 
 
 * "Navegación e inspección preliminar de las funcionalidades expuestas de la aplicación web."
+<img width="1366" height="720" alt="image46" src="https://github.com/user-attachments/assets/553b9b5e-b0b0-4d31-8d41-4ea2a7d14589" />
 
 
 
 
 * "Evidencia de la inicialización del Exploit Server y obtención de su URL única para la recepción de exfiltraciones."
+<img width="1366" height="720" alt="image61" src="https://github.com/user-attachments/assets/7649f652-54a3-4318-acae-82329c47efe4" />
 
 
 
@@ -734,6 +751,7 @@ Victim's username: carlos
 
 
 * "Confirmación de presencia de una vulnerabilidad de Cross-Site Scripting (XSS) almacenado en los formularios de comentarios."
+<img width="1366" height="720" alt="image84" src="https://github.com/user-attachments/assets/e4581676-4661-4b02-a58a-df2fcbb55169" />
 
 
 
@@ -741,25 +759,30 @@ Victim's username: carlos
 
 
 * "Análisis del registro de accesos (Access Log) del Exploit Server, donde se expone la captura de las credenciales codificadas en Base64 de la cuenta de la víctima."
+<img width="1366" height="720" alt="image54" src="https://github.com/user-attachments/assets/2480604f-2a21-452d-9339-310ef173d041" />
 
 
 
 * "Uso de una utilidad de descifrado criptográfico (Hash Cracker) identificando con éxito la contraseña en texto plano."
+<img width="1366" height="720" alt="image50" src="https://github.com/user-attachments/assets/ad40fa69-a93b-4b24-be88-d91c085df6a6" />
 
 
 
 
 * "Evidencia de inicio de sesión administrativo y acceso al panel de control de borrado de cuentas."
+<img width="1366" height="720" alt="image43" src="https://github.com/user-attachments/assets/859676fb-25f9-4d32-8dfc-a2e74ec92d69" />
 
 
 
 
 * "Validación del requerimiento de contraseña para la ejecución de acciones críticas en el perfil."
+<img width="1366" height="720" alt="image55" src="https://github.com/user-attachments/assets/8651e86f-2200-4994-bd45-9931fb5ff5f3" />
 
 
 
 
 * "Confirmación de la eliminación exitosa del usuario objetivo, cumpliendo los objetivos planteados."
+<img width="1366" height="720" alt="image11" src="https://github.com/user-attachments/assets/857de152-7ec3-4ff7-9959-6da3c6408fca" />
 
 
 * **Mitigación:** Implementar una función de derivación de claves robusta y computacionalmente costosa (*Key Derivation Function*), como `Argon2id` o `bcrypt`, aplicando un factor de coste elevado y un valor de sal (*salt*) pseudoaleatorio y único por usuario para ralentizar drásticamente cualquier intento de descifrado local de hashes.
@@ -783,9 +806,11 @@ Victim's username: carlos
 * **Evidencia:** > 
 
 * "Interceptación de la solicitud HTTP GET /forgot-password."
+<img width="1366" height="720" alt="image69" src="https://github.com/user-attachments/assets/1c9a649d-7db2-402f-8a47-1051413bd422" />
 
 
 * "Evidencia de acceso al buzón de correo virtual del usuario para recuperar el flujo de restablecimiento."
+<img width="1366" height="720" alt="image15" src="https://github.com/user-attachments/assets/161004b2-98b8-4bf3-9224-5cca3091e0d4" />
 
 
 
@@ -796,14 +821,17 @@ Victim's username: carlos
 
 
 * "Evidencia de funcionamiento correcto del módulo de recuperación de credenciales."
+<img width="1366" height="720" alt="image58" src="https://github.com/user-attachments/assets/32cb9475-ee24-4950-b2bd-fd8898999e8a" />
 
 
 
 
 * "Captura del token temporal dinámico generado por la aplicación para el cambio de clave."
+<img width="1366" height="720" alt="image92" src="https://github.com/user-attachments/assets/e7a2681b-5dd1-4a55-bca4-f1f15e0a9390" />
 
 
 * "Modificación controlada del parámetro identificador sustituyéndolo por la cuenta de la víctima ('carlos')."
+<img width="1366" height="720" alt="image30" src="https://github.com/user-attachments/assets/a23ac3d1-a1ac-4079-844e-c26217e022bb" />
 
 
 
@@ -812,10 +840,12 @@ Victim's username: carlos
 
 
 * "Uso del módulo Repeater para la supresión completa del token temporal en la estructura de la solicitud."
+<img width="1366" height="720" alt="image104" src="https://github.com/user-attachments/assets/f84a7b93-2468-436d-9d15-81f82e8d09e4" />
 
 
 
 * "Evidencia de respuesta HTTP 302 Found emitida por el servidor, confirmando la alteración legítima de la contraseña del usuario víctima."
+<img width="1366" height="720" alt="image28" src="https://github.com/user-attachments/assets/8a09e9c1-7bc4-44b3-97cf-15c7ba084ff7" />
 
 
 
@@ -846,12 +876,14 @@ Victim's username: carlos
 * **Evidencia:** > 
 
 * "Interceptación de la solicitud POST /forgot-password mediante el Proxy."
+<img width="1366" height="720" alt="image57" src="https://github.com/user-attachments/assets/eb4e4cbc-196c-478d-9caf-e2222a017009" />
 
 
 
 
 
 * "Evidencia del servidor de explotación (Exploit Server) expuesto en la red."
+<img width="1366" height="720" alt="image10" src="https://github.com/user-attachments/assets/fd2c1354-7646-4d8d-9839-a5d804e0b13b" />
 
 
 
@@ -859,11 +891,13 @@ Victim's username: carlos
 
 
 * "Evidencia del registro de accesos (Access Log) donde se monitorizan las peticiones entrantes."
+<img width="1366" height="720" alt="image8" src="https://github.com/user-attachments/assets/e5d53656-cced-441d-8a16-1b3c8b6d5e7a" />
 
 
 
 
 * "Intento de elusión de autenticación mediante análisis dinámico (verificación colateral de vectores como JWT)."
+<img width="1366" height="720" alt="image36" src="https://github.com/user-attachments/assets/bd8eba07-a22a-4646-a880-930abd2f9279" />
 
 
 
@@ -873,11 +907,13 @@ Victim's username: carlos
 
 
 * "Evidencia de acceso al formulario de restablecimiento de contraseña sin credenciales previas."
+<img width="1366" height="720" alt="image62" src="https://github.com/user-attachments/assets/44ab2a0c-0be5-4624-81e7-acda2d7417f4" />
 
 
 
 
 * "Acceso legítimo y consolidación de sesión en la interfaz privada de la cuenta corporativa empleando las credenciales comprometidas durante la auditoría."
+<img width="1366" height="720" alt="image77" src="https://github.com/user-attachments/assets/e159c4fa-77bb-409d-a2f5-d27b27a24abf" />
 
 
 
@@ -905,36 +941,43 @@ Victim's username: carlos
 * **Evidencia:** > 
 
 * "Interceptación de la petición POST /my-account/change-password."
+<img width="1366" height="720" alt="image22" src="https://github.com/user-attachments/assets/8dabb0af-c73b-4362-a980-43f54d4b2e7e" />
 
 
 
 
 * "Evidencia del comportamiento de la aplicación web ante un cambio de contraseña exitoso."
+<img width="1366" height="720" alt="image71" src="https://github.com/user-attachments/assets/2ccb0e01-f921-40e5-924c-6b63dbae0944" />
 
 
 
 
 
 * "Evidencia del comportamiento del sistema ante un intento de cambio de contraseña fallido."
+<img width="1366" height="720" alt="image98" src="https://github.com/user-attachments/assets/b77ca5bf-123d-4ddc-b37c-c64c2345b6f5" />
 
 
 
 
 * "Carga de un diccionario de contraseñas candidato utilizando la modalidad de ataque Sniper desde el Intruder."
+<img width="1366" height="720" alt="image17" src="https://github.com/user-attachments/assets/5d1771cd-8707-4634-b5ff-77a63b24bb8f" />
 
 
 
 * "Evidencia de la obtención del mensaje de error 'Current password is incorrect'. Uso de la directiva Grep - Extract incluyendo la alerta para su visualización tabular en los resultados del ataque."
+<img width="1366" height="720" alt="image68" src="https://github.com/user-attachments/assets/43e3db82-c453-4a39-8ff9-d38dc7c9435a" />
 
 
 
 
 * "Evidencia de ataque exitoso detectado mediante el cambio de estado en la columna de advertencias (Warnings)."
+<img width="1366" height="720" alt="image81" src="https://github.com/user-attachments/assets/546ee3e3-85b0-4f75-87ea-f12f2944ad49" />
 
 
 
 
 * "Acceso legítimo y consolidación de sesión en la interfaz privada de la cuenta corporativa empleando las credenciales comprometidas durante la auditoría."
+<img width="1366" height="720" alt="image4" src="https://github.com/user-attachments/assets/423659d1-40ff-4f5a-917f-2330ec707079" />
 
 
 
